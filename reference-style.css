@@ -59,7 +59,7 @@ body { background: var(--paper); font-family: 'Times New Roman', Times, serif; }
 #greeting-section .glass-card > p { font-size: 13px !important; line-height: 1.7 !important; margin: 12px 0 !important; color: #666052 !important; }
 .invitation-parents { margin: 18px 0; }
 .invitation-parents .couple-name { font-size: 14px; line-height: 1.5; color: #504737; }
-.invitation-parents .couple-amp { font-size: 18px; margin: 6px 0; }
+#greeting-section .invitation-parents .couple-amp { font-size: 19px; margin: 6px 0; }
 #greeting-section .pengantin-name { font-size: 22px; line-height: 1.3; margin: 20px 0 10px !important; }
 #greeting-section .pengantin-amp { font-size: 19px; margin: 8px 0; }
 .invitation-event-details { display: flex; flex-direction: column; gap: 22px; margin: 26px 0 0; padding: 22px 0 0; border-top: 1px solid #c6c3b4; }
@@ -88,6 +88,8 @@ body { background: var(--paper); font-family: 'Times New Roman', Times, serif; }
 .reference-rsvp-form > label, .reference-rsvp-form legend { display: block; font-size: 12px; margin: 18px 0 7px; color: #302f29; }
 .reference-rsvp-form input:not([type='radio']), .reference-rsvp-form textarea { display: block; width: 100%; background: #fff; border: 1px solid #deddd7; border-radius: 3px; padding: 10px; font-size: 13px; margin: 0; }
 .reference-rsvp-form fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.reference-rsvp-form fieldset { margin-top: 18px; }
+.reference-rsvp-form fieldset > legend { margin: 0 0 7px; padding: 0; }
 .attendance-options, .guest-options { display: flex; gap: 8px; }
 .attendance-options label, .guest-options label { position: relative; cursor: pointer; }
 .attendance-options label { flex: 1; }

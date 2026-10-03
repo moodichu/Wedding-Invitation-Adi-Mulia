@@ -139,6 +139,13 @@ html { background: #241d15; }
 #overlay .javanese-opening-seal:focus-visible { outline: 2px solid #f6e6c5; outline-offset: 10px; }
 
 /* Matching dividers throughout the invitation's continuous flow. */
+#main-content #greeting-section .invitation-parents .couple-amp,
+#main-content #greeting-section .glass-card > .pengantin-amp {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 1.7 !important;
+}
 #overlay { transition: transform .9s cubic-bezier(.65, 0, .35, 1); }
 #overlay.seal-opening { transform: translate(-50%, -100%); pointer-events: none; }
 #main-content { transition: opacity .9s cubic-bezier(.65, 0, .35, 1), transform .9s cubic-bezier(.65, 0, .35, 1) !important; }
